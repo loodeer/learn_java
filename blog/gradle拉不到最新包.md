@@ -31,4 +31,27 @@ repositories {
         maven { url "xxxxxx" }
     }
 ```
+
+
+zookeeper 3.4.6 下缺失 .jar 文件。
+	
+```
+☁  3.4.6  ll
+total 24
+-rw-r--r--  1 luzuheng  staff   155B  3 29  2017 _maven.repositories
+-rw-r--r--  1 luzuheng  staff   3.3K  3 29  2017 zookeeper-3.4.6.pom
+-rw-r--r--  1 luzuheng  staff    40B  3 29  2017 zookeeper-3.4.6.pom.sha1
+```
+	
+删除 3.4.6 文件夹后重新刷新依赖解决
+
+```
+☁  1b2502e29da1ebaade2357cd1de35a855fa3755  pwd
+/Users/luzuheng/.gradle/caches/modules-2/files-2.1/org.apache.zookeeper/zookeeper/3.4.6/1b2502e29da1ebaade2357cd1de35a855fa3755
+☁  1b2502e29da1ebaade2357cd1de35a855fa3755  ls
+zookeeper-3.4.6.jar
+```
+
+	
+	
 	

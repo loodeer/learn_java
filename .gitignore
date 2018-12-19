@@ -1,1 +1,5 @@
 Tetris/*
+/.idea/
+/p_rest-service/build/
+/p_rest-service/.idea/
+/p_rest-service/.gradle/
